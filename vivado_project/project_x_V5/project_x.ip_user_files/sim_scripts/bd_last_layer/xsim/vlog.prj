@@ -1,0 +1,17 @@
+verilog xil_defaultlib --include "../../../../project_x.srcs/sim_last_layer/bd/bd_last_layer/ipshared/8713/hdl" \
+"../../../bd/bd_last_layer/ip/bd_last_layer_axis_dot_20_10_0_0/sim/bd_last_layer_axis_dot_20_10_0_0.v" \
+"../../../bd/bd_last_layer/ip/bd_last_layer_axis_bias_10_0_0/sim/bd_last_layer_axis_bias_10_0_0.v" \
+
+sv xil_defaultlib --include "../../../../project_x.srcs/sim_last_layer/bd/bd_last_layer/ipshared/8713/hdl" \
+"../../../bd/bd_last_layer/ip/bd_last_layer_axi4stream_vip_0_0/sim/bd_last_layer_axi4stream_vip_0_0_pkg.sv" \
+"../../../bd/bd_last_layer/ip/bd_last_layer_axi4stream_vip_0_0/sim/bd_last_layer_axi4stream_vip_0_0.sv" \
+"../../../bd/bd_last_layer/ip/bd_last_layer_axi4stream_vip_0_1/sim/bd_last_layer_axi4stream_vip_0_1_pkg.sv" \
+"../../../bd/bd_last_layer/ip/bd_last_layer_axi4stream_vip_0_1/sim/bd_last_layer_axi4stream_vip_0_1.sv" \
+
+verilog xil_defaultlib --include "../../../../project_x.srcs/sim_last_layer/bd/bd_last_layer/ipshared/8713/hdl" \
+"../../../bd/bd_last_layer/ip/bd_last_layer_axis_tanh_10_0_0/sim/bd_last_layer_axis_tanh_10_0_0.v" \
+"../../../bd/bd_last_layer/sim/bd_last_layer.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

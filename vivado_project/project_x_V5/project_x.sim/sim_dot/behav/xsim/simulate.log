@@ -1,0 +1,192 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Xilinx AXI4STREAM VIP Found at Path: tb_dot.DUT.bd_dot_i.axi4stream_vip_0.inst
+Xilinx AXI4STREAM VIP Found at Path: tb_dot.DUT.bd_dot_i.axi4stream_vip_1.inst
+Simulation Setup
+Holding Reset
+INFO: [Master VIP_monitor] (axi4stream_vip_pkg.axi4stream_monitor(C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::run_phase.Block2118_1.ACTIVE) 410000.0 ps : run()
+INFO: [Master VIP_driver] (axi4stream_vip_pkg.axi4stream_mst_driver(C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::run_phase.Block2712_14.ACTIVE) 410000.0 ps : run()
+INFO: [Slave VIP_monitor] (axi4stream_vip_pkg.axi4stream_monitor(C_XIL_AXI4STREAM_SIGNAL_SET=8'b011011,C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::run_phase.Block2118_8.ACTIVE) 410000.0 ps : run()
+INFO: [Slave VIP_driver] (axi4stream_vip_pkg.axi4stream_slv_driver(C_XIL_AXI4STREAM_SIGNAL_SET=8'b011011,C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::run_phase.Block2962_24.ACTIVE) 410000.0 ps : run()
+INFO: [Slave VIP_driver] (axi4stream_vip_pkg.axi4stream_slv_driver(C_XIL_AXI4STREAM_SIGNAL_SET=8'b011011,C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::get_next_ready_item.GNI) 410000.0 ps : get_next_ready_gen:
+INFO: [Slave VIP_driver] (axi4stream_vip_pkg.axi4stream_slv_driver(C_XIL_AXI4STREAM_SIGNAL_SET=8'b011011,C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::get_next_ready_item.GNI) 410000.0 ps : 
+-------------------------------------------------------
+NAME                               VALUE
+-------------------------------------------------------
+Ready_gen               
+  Policy                   XIL_AXI4STREAM_READY_GEN_NO_BACKPRESSURE
+  Use Variable Ranges        XIL_AXI4STREAM_FALSE
+  Max Low Time                        0
+  Min Low Time                        0
+  Max High Time                       1
+  Min High Time                       1
+  Max Event Count                     1
+  Min Event Count                     1
+  Event Cycle Count Reset          2000
+  Low Time                            0
+  High Time                           1
+  Event Count                         1
+-------------------------------------------------------
+INFO: [Slave VIP_driver] (axi4stream_vip_pkg.axi4stream_slv_driver(C_XIL_AXI4STREAM_SIGNAL_SET=8'b011011,C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::ready_policy_generation.READY_POLICY_GENERATION) 430000.0 ps : Changing ready_gen policy:
+INFO: [Slave VIP_driver] (axi4stream_vip_pkg.axi4stream_slv_driver(C_XIL_AXI4STREAM_SIGNAL_SET=8'b011011,C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::ready_policy_generation.READY_POLICY_GENERATION) 430000.0 ps : 
+-------------------------------------------------------
+NAME                               VALUE
+-------------------------------------------------------
+Ready_gen               
+  Policy                   XIL_AXI4STREAM_READY_GEN_NO_BACKPRESSURE
+  Use Variable Ranges        XIL_AXI4STREAM_FALSE
+  Max Low Time                        0
+  Min Low Time                        0
+  Max High Time                       1
+  Min High Time                       1
+  Max Event Count                     1
+  Min Event Count                     1
+  Event Cycle Count Reset          2000
+  Low Time                            0
+  High Time                           1
+  Event Count                         1
+-------------------------------------------------------
+INFO: [Slave VIP_driver] (axi4stream_vip_pkg.axi4stream_slv_driver(C_XIL_AXI4STREAM_SIGNAL_SET=8'b011011,C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::ready_policy_generation.READY_POLICY_GENERATION) 430000.0 ps : get_low_time   0
+Starting Simulation
+Sending Input Vector
+Sending 3dcccccd (0.1000)
+INFO: [Master VIP_driver] (axi4stream_vip_pkg.axi4stream_mst_driver(C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::get_and_drive.GET_AND_DRIVE.DRIVER_PUT_TRANSACTION) 450001.0 ps : Put transaction:
+INFO: [Master VIP_driver] (axi4stream_vip_pkg.axi4stream_mst_driver(C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::get_and_drive.GET_AND_DRIVE.DRIVER_PUT_TRANSACTION) 450001.0 ps : -------------------------------------------------------
+NAME                               VALUE
+-------------------------------------------------------
+XIL_AXI4STREAM_TRANSACTION
+  SIGNAL_SET                     0b00000011
+  PAYLOAD                        4
+    Byte[  0]:                   data: cd 
+    Byte[  1]:                   data: cc 
+    Byte[  2]:                   data: cc 
+    Byte[  3]:                   data: 3d 
+-------------------------------------------------------
+Sending 3e4ccccd (0.2000)
+INFO: [Master VIP_driver] (axi4stream_vip_pkg.axi4stream_mst_driver(C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::get_and_drive.GET_AND_DRIVE) 470000.0 ps : Backpressure detected:   1 cycles
+INFO: [Master VIP_monitor] (axi4stream_vip_pkg.axi4stream_monitor(C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::watch_and_write.WRITE_TRANS) 470001.0 ps : Sent to scoreboard!
+-------------------------------------------------------
+NAME                               VALUE
+-------------------------------------------------------
+XIL_AXI4STREAM_TRANSACTION
+  SIGNAL_SET                     0b00000011
+  PAYLOAD                        4
+    Byte[  0]:                   data: cd 
+    Byte[  1]:                   data: cc 
+    Byte[  2]:                   data: cc 
+    Byte[  3]:                   data: 3d 
+-------------------------------------------------------
+INFO: [Master VIP_driver] (axi4stream_vip_pkg.axi4stream_mst_driver(C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::get_and_drive.GET_AND_DRIVE.DRIVER_PUT_TRANSACTION) 470001.0 ps : Put transaction:
+INFO: [Master VIP_driver] (axi4stream_vip_pkg.axi4stream_mst_driver(C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::get_and_drive.GET_AND_DRIVE.DRIVER_PUT_TRANSACTION) 470001.0 ps : -------------------------------------------------------
+NAME                               VALUE
+-------------------------------------------------------
+XIL_AXI4STREAM_TRANSACTION
+  SIGNAL_SET                     0b00000011
+  PAYLOAD                        4
+    Byte[  0]:                   data: cd 
+    Byte[  1]:                   data: cc 
+    Byte[  2]:                   data: 4c 
+    Byte[  3]:                   data: 3e 
+-------------------------------------------------------
+Sending 3e99999a (0.3000)
+INFO: [Master VIP_driver] (axi4stream_vip_pkg.axi4stream_mst_driver(C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::get_and_drive.GET_AND_DRIVE) 550000.0 ps : Backpressure detected:   4 cycles
+INFO: [Master VIP_monitor] (axi4stream_vip_pkg.axi4stream_monitor(C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::watch_and_write.WRITE_TRANS) 550001.0 ps : Sent to scoreboard!
+-------------------------------------------------------
+NAME                               VALUE
+-------------------------------------------------------
+XIL_AXI4STREAM_TRANSACTION
+  SIGNAL_SET                     0b00000011
+  PAYLOAD                        4
+    Byte[  0]:                   data: cd 
+    Byte[  1]:                   data: cc 
+    Byte[  2]:                   data: 4c 
+    Byte[  3]:                   data: 3e 
+-------------------------------------------------------
+INFO: [Master VIP_driver] (axi4stream_vip_pkg.axi4stream_mst_driver(C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::get_and_drive.GET_AND_DRIVE.DRIVER_PUT_TRANSACTION) 550001.0 ps : Put transaction:
+INFO: [Master VIP_driver] (axi4stream_vip_pkg.axi4stream_mst_driver(C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::get_and_drive.GET_AND_DRIVE.DRIVER_PUT_TRANSACTION) 550001.0 ps : -------------------------------------------------------
+NAME                               VALUE
+-------------------------------------------------------
+XIL_AXI4STREAM_TRANSACTION
+  SIGNAL_SET                     0b00000011
+  PAYLOAD                        4
+    Byte[  0]:                   data: 9a 
+    Byte[  1]:                   data: 99 
+    Byte[  2]:                   data: 99 
+    Byte[  3]:                   data: 3e 
+-------------------------------------------------------
+Receiving Output Vector
+INFO: [Master VIP_driver] (axi4stream_vip_pkg.axi4stream_mst_driver(C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::get_and_drive.GET_AND_DRIVE) 950000.0 ps : Backpressure detected:  20 cycles
+INFO: [Master VIP_monitor] (axi4stream_vip_pkg.axi4stream_monitor(C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::watch_and_write.WRITE_TRANS) 950001.0 ps : Sent to scoreboard!
+-------------------------------------------------------
+NAME                               VALUE
+-------------------------------------------------------
+XIL_AXI4STREAM_TRANSACTION
+  SIGNAL_SET                     0b00000011
+  PAYLOAD                        4
+    Byte[  0]:                   data: 9a 
+    Byte[  1]:                   data: 99 
+    Byte[  2]:                   data: 99 
+    Byte[  3]:                   data: 3e 
+-------------------------------------------------------
+INFO: [Slave VIP_driver] (axi4stream_vip_pkg.axi4stream_slv_driver(C_XIL_AXI4STREAM_SIGNAL_SET=8'b011011,C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::ready_policy_generation.READY_POLICY_GENERATION) 1670001.0 ps : get_low_time   0
+INFO: [Slave VIP_monitor] (axi4stream_vip_pkg.axi4stream_monitor(C_XIL_AXI4STREAM_SIGNAL_SET=8'b011011,C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::watch_and_write.WRITE_TRANS) 1670001.0 ps : Sent to scoreboard!
+-------------------------------------------------------
+NAME                               VALUE
+-------------------------------------------------------
+XIL_AXI4STREAM_TRANSACTION
+  SIGNAL_SET                     0b00011011
+  LAST                           0x0
+  PAYLOAD                        4
+    Byte[  0]:                   data: 34  keep: 1 
+    Byte[  1]:                   data: 33  keep: 1 
+    Byte[  2]:                   data: 73  keep: 1 
+    Byte[  3]:                   data: 40  keep: 1 
+-------------------------------------------------------
+Received 40733334 (??) vs. 40733334 (3.8000)
+INFO: [Slave VIP_monitor] (axi4stream_vip_pkg.axi4stream_monitor(C_XIL_AXI4STREAM_SIGNAL_SET=8'b011011,C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::watch_and_write.WRITE_TRANS) 1690001.0 ps : Sent to scoreboard!
+-------------------------------------------------------
+NAME                               VALUE
+-------------------------------------------------------
+XIL_AXI4STREAM_TRANSACTION
+  SIGNAL_SET                     0b00011011
+  LAST                           0x0
+  PAYLOAD                        4
+    Byte[  0]:                   data: cd  keep: 1 
+    Byte[  1]:                   data: cc  keep: 1 
+    Byte[  2]:                   data: 8c  keep: 1 
+    Byte[  3]:                   data: 40  keep: 1 
+-------------------------------------------------------
+INFO: [Slave VIP_driver] (axi4stream_vip_pkg.axi4stream_slv_driver(C_XIL_AXI4STREAM_SIGNAL_SET=8'b011011,C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::ready_policy_generation.READY_POLICY_GENERATION) 1690001.0 ps : get_low_time   0
+Received 408ccccd (??) vs. 408ccccd (4.4000)
+INFO: [Slave VIP_driver] (axi4stream_vip_pkg.axi4stream_slv_driver(C_XIL_AXI4STREAM_SIGNAL_SET=8'b011011,C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::ready_policy_generation.READY_POLICY_GENERATION) 1710001.0 ps : get_low_time   0
+INFO: [Slave VIP_monitor] (axi4stream_vip_pkg.axi4stream_monitor(C_XIL_AXI4STREAM_SIGNAL_SET=8'b011011,C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::watch_and_write.WRITE_TRANS) 1710001.0 ps : Sent to scoreboard!
+-------------------------------------------------------
+NAME                               VALUE
+-------------------------------------------------------
+XIL_AXI4STREAM_TRANSACTION
+  SIGNAL_SET                     0b00011011
+  LAST                           0x0
+  PAYLOAD                        4
+    Byte[  0]:                   data: 00  keep: 1 
+    Byte[  1]:                   data: 00  keep: 1 
+    Byte[  2]:                   data: a0  keep: 1 
+    Byte[  3]:                   data: 40  keep: 1 
+-------------------------------------------------------
+Received 40a00000 (??) vs. 40a00000 (5.0000)
+INFO: [Slave VIP_monitor] (axi4stream_vip_pkg.axi4stream_monitor(C_XIL_AXI4STREAM_SIGNAL_SET=8'b011011,C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::watch_and_write.WRITE_TRANS) 1730001.0 ps : Sent to scoreboard!
+-------------------------------------------------------
+NAME                               VALUE
+-------------------------------------------------------
+XIL_AXI4STREAM_TRANSACTION
+  SIGNAL_SET                     0b00011011
+  LAST                           0x1
+  PAYLOAD                        4
+    Byte[  0]:                   data: 34  keep: 1 
+    Byte[  1]:                   data: 33  keep: 1 
+    Byte[  2]:                   data: b3  keep: 1 
+    Byte[  3]:                   data: 40  keep: 1 
+-------------------------------------------------------
+INFO: [Slave VIP_driver] (axi4stream_vip_pkg.axi4stream_slv_driver(C_XIL_AXI4STREAM_SIGNAL_SET=8'b011011,C_XIL_AXI4STREAM_DEST_WIDTH=0,C_XIL_AXI4STREAM_DATA_WIDTH=32,C_XIL_AXI4STREAM_ID_WIDTH=0,C_XIL_AXI4STREAM_HAS_ARESETN=1)::ready_policy_generation.READY_POLICY_GENERATION) 1730001.0 ps : get_low_time   0
+Received 40b33334 (??) vs. 40b33334 (5.6000)
+@@@Passed
+$finish called at time : 3720 ns : File "/home/lukefahr/e315/project_x/project_x.srcs/sim_dot/new/tb_dot.sv" Line 276

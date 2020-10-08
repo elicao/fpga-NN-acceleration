@@ -1,0 +1,15 @@
+sv xil_defaultlib --include "../../../../project_x.srcs/sim_bias_layer/bd/bd_bias_layer/ipshared/8713/hdl" \
+"../../../bd/bd_bias_layer/ip/bd_bias_layer_axi4stream_vip_0_0/sim/bd_bias_layer_axi4stream_vip_0_0_pkg.sv" \
+"../../../bd/bd_bias_layer/ip/bd_bias_layer_axi4stream_vip_0_0/sim/bd_bias_layer_axi4stream_vip_0_0.sv" \
+"../../../bd/bd_bias_layer/ip/bd_bias_layer_axi4stream_vip_0_1/sim/bd_bias_layer_axi4stream_vip_0_1_pkg.sv" \
+"../../../bd/bd_bias_layer/ip/bd_bias_layer_axi4stream_vip_0_1/sim/bd_bias_layer_axi4stream_vip_0_1.sv" \
+
+verilog xil_defaultlib --include "../../../../project_x.srcs/sim_bias_layer/bd/bd_bias_layer/ipshared/8713/hdl" \
+"../../../bd/bd_bias_layer/ip/bd_bias_layer_axis_bias_0_0/sim/bd_bias_layer_axis_bias_0_0.v" \
+"../../../bd/bd_bias_layer/ip/bd_bias_layer_axis_dot_0_0/sim/bd_bias_layer_axis_dot_0_0.v" \
+"../../../bd/bd_bias_layer/ip/bd_bias_layer_axis_tanh_0_0/sim/bd_bias_layer_axis_tanh_0_0.v" \
+"../../../bd/bd_bias_layer/sim/bd_bias_layer.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

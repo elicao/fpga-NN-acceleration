@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_x.ip_user_files/bd/bd_layer/ip/bd_layer_floating_point_0_0/sim/bd_layer_floating_point_0_0.vhd" \
+"../../../../project_x.ip_user_files/bd/bd_layer/ip/bd_layer_floating_point_1_0/sim/bd_layer_floating_point_1_0.vhd" \
+
+# Do not sort compile order
+nosort

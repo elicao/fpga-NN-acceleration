@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_bias_layer_behav/xsimk -simmode gui -wdb tb_bias_layer_behav.wdb -simrunnum 0 -socket 38303
+Design successfully loaded
+Design Loading Memory Usage: 50764 KB (Peak: 50764 KB)
+Design Loading CPU Usage: 110 ms
+Simulation completed
+Simulation Memory Usage: 149368 KB (Peak: 198036 KB)
+Simulation CPU Usage: 420 ms

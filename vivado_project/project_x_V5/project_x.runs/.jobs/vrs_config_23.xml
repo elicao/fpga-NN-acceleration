@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="bd_fpga_axis_dot_20_10_0_0_synth_1" LaunchDir="C:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.runs/bd_fpga_axis_dot_20_10_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="bd_fpga_axis_dot_20_10_0_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

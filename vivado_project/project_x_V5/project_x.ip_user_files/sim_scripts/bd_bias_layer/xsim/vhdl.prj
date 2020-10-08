@@ -1,0 +1,6 @@
+vhdl xil_defaultlib  \
+"../../../bd/bd_bias_layer/ip/bd_bias_layer_floating_point_0_0/sim/bd_bias_layer_floating_point_0_0.vhd" \
+"../../../bd/bd_bias_layer/ip/bd_bias_layer_floating_point_0_1/sim/bd_bias_layer_floating_point_0_1.vhd" \
+"../../../bd/bd_bias_layer/ip/bd_bias_layer_floating_point_1_0/sim/bd_bias_layer_floating_point_1_0.vhd" \
+
+nosort

@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../bd/bd_LUTmoid/ip/bd_LUTmoid_floating_point_0_0/sim/bd_LUTmoid_floating_point_0_0.vhd" \
+
+nosort

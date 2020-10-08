@@ -1,0 +1,6 @@
+vhdl xil_defaultlib  \
+"../../../bd/bd_last_layer/ip/bd_last_layer_floating_point_0_0/sim/bd_last_layer_floating_point_0_0.vhd" \
+"../../../bd/bd_last_layer/ip/bd_last_layer_floating_point_1_0/sim/bd_last_layer_floating_point_1_0.vhd" \
+"../../../bd/bd_last_layer/ip/bd_last_layer_floating_point_2_0/sim/bd_last_layer_floating_point_2_0.vhd" \
+
+nosort

@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lukefahr/e315/project_x/project_x.ip_user_files/bd/bd_bias_layer/ip/bd_bias_layer_axis_bias_0_0/sim/bd_bias_layer_axis_bias_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_bias_layer_axis_bias_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lukefahr/e315/project_x/project_x.ip_user_files/bd/bd_bias_layer/ip/bd_bias_layer_axis_dot_0_0/sim/bd_bias_layer_axis_dot_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_bias_layer_axis_dot_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lukefahr/e315/project_x/project_x.ip_user_files/bd/bd_bias_layer/ip/bd_bias_layer_axis_tanh_0_0/sim/bd_bias_layer_axis_tanh_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_bias_layer_axis_tanh_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lukefahr/e315/project_x/project_x.ip_user_files/bd/bd_bias_layer/sim/bd_bias_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_bias_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lukefahr/e315/project_x/project_x.srcs/sim_bias_layer/bd/bd_bias_layer/hdl/bd_bias_layer_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_bias_layer_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/lukefahr/e315/project_x/project_x.srcs/sim_bias_layer/new/tb_bias_layer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_bias_layer

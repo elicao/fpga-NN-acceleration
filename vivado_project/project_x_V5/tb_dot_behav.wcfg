@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_dot_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi4stream_vip_pkg" />
+            <top_module name="glbl" />
+            <top_module name="tb_dot" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2670397506fs"></ZoomEndTime>
+      <Cursor1Time time="1690000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="480"></NameColumnWidth>
+      <ValueColumnWidth column_width="153"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="63" />
+   <wvobject type="array" fp_name="/tb_dot/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/clk">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/rst">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/INPUT_AXIS_TDATA">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">INPUT_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INPUT_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/INPUT_AXIS_TKEEP">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">INPUT_AXIS_TKEEP[3:0]</obj_property>
+      <obj_property name="ObjectShortName">INPUT_AXIS_TKEEP[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/INPUT_AXIS_TLAST">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">INPUT_AXIS_TLAST</obj_property>
+      <obj_property name="ObjectShortName">INPUT_AXIS_TLAST</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/INPUT_AXIS_TVALID">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">INPUT_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">INPUT_AXIS_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/INPUT_AXIS_TREADY">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">INPUT_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">INPUT_AXIS_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/OUTPUT_AXIS_TDATA">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">OUTPUT_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/OUTPUT_AXIS_TKEEP">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">OUTPUT_AXIS_TKEEP[3:0]</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_AXIS_TKEEP[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/OUTPUT_AXIS_TLAST">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">OUTPUT_AXIS_TLAST</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_AXIS_TLAST</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/OUTPUT_AXIS_TVALID">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">OUTPUT_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_AXIS_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/OUTPUT_AXIS_TREADY">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">OUTPUT_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_AXIS_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/FPU_IN_AXIS_TDATA">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FPU_IN_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FPU_IN_AXIS_TDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/FPU_IN_AXIS_TKEEP">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FPU_IN_AXIS_TKEEP[3:0]</obj_property>
+      <obj_property name="ObjectShortName">FPU_IN_AXIS_TKEEP[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/FPU_IN_AXIS_TLAST">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FPU_IN_AXIS_TLAST</obj_property>
+      <obj_property name="ObjectShortName">FPU_IN_AXIS_TLAST</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/FPU_IN_AXIS_TVALID">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FPU_IN_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">FPU_IN_AXIS_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/FPU_IN_AXIS_TREADY">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FPU_IN_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">FPU_IN_AXIS_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/FPU_O_A_AXIS_TDATA">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FPU_O_A_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FPU_O_A_AXIS_TDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/FPU_O_A_AXIS_TKEEP">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FPU_O_A_AXIS_TKEEP[3:0]</obj_property>
+      <obj_property name="ObjectShortName">FPU_O_A_AXIS_TKEEP[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/FPU_O_A_AXIS_TLAST">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FPU_O_A_AXIS_TLAST</obj_property>
+      <obj_property name="ObjectShortName">FPU_O_A_AXIS_TLAST</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/FPU_O_A_AXIS_TVALID">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FPU_O_A_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">FPU_O_A_AXIS_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/FPU_O_A_AXIS_TREADY">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FPU_O_A_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">FPU_O_A_AXIS_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/FPU_O_B_AXIS_TDATA">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FPU_O_B_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FPU_O_B_AXIS_TDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/FPU_O_B_AXIS_TKEEP">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FPU_O_B_AXIS_TKEEP[3:0]</obj_property>
+      <obj_property name="ObjectShortName">FPU_O_B_AXIS_TKEEP[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/FPU_O_B_AXIS_TLAST">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FPU_O_B_AXIS_TLAST</obj_property>
+      <obj_property name="ObjectShortName">FPU_O_B_AXIS_TLAST</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/FPU_O_B_AXIS_TVALID">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FPU_O_B_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">FPU_O_B_AXIS_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/FPU_O_B_AXIS_TREADY">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FPU_O_B_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">FPU_O_B_AXIS_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/FPU_O_C_AXIS_TDATA">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FPU_O_C_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FPU_O_C_AXIS_TDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/FPU_O_C_AXIS_TKEEP">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FPU_O_C_AXIS_TKEEP[3:0]</obj_property>
+      <obj_property name="ObjectShortName">FPU_O_C_AXIS_TKEEP[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/FPU_O_C_AXIS_TLAST">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FPU_O_C_AXIS_TLAST</obj_property>
+      <obj_property name="ObjectShortName">FPU_O_C_AXIS_TLAST</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/FPU_O_C_AXIS_TVALID">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FPU_O_C_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">FPU_O_C_AXIS_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/FPU_O_C_AXIS_TREADY">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FPU_O_C_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">FPU_O_C_AXIS_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/weights">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">weights[0:3][0:2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">weights[0:3][0:2][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/outputs">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">outputs[0:3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">outputs[0:3][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/all_ready">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">all_ready</obj_property>
+      <obj_property name="ObjectShortName">all_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/all_tx">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">all_tx</obj_property>
+      <obj_property name="ObjectShortName">all_tx</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/all_last">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">all_last</obj_property>
+      <obj_property name="ObjectShortName">all_last</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/i">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/next_i">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">next_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">next_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/j">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/next_j">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">next_j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">next_j[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/txrx_timer">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">txrx_timer[4:0]</obj_property>
+      <obj_property name="ObjectShortName">txrx_timer[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/next_txrx_timer">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">next_txrx_timer[4:0]</obj_property>
+      <obj_property name="ObjectShortName">next_txrx_timer[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/state">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/next_state">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/rxi">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">rxi[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rxi[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/rxj">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">rxj[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rxj[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/out_tx">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">out_tx</obj_property>
+      <obj_property name="ObjectShortName">out_tx</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/next_out_tx">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">next_out_tx</obj_property>
+      <obj_property name="ObjectShortName">next_out_tx</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/out_txi">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">out_txi[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_txi[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/next_out_txi">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">next_out_txi[31:0]</obj_property>
+      <obj_property name="ObjectShortName">next_out_txi[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/rx_done">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">rx_done</obj_property>
+      <obj_property name="ObjectShortName">rx_done</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/ROWS">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ROWS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ROWS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/COLS">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">COLS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">COLS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/FPU_DELAY">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FPU_DELAY[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FPU_DELAY[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/TIMER_SZ">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">TIMER_SZ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TIMER_SZ[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/ST_IDLE">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ST_IDLE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ST_IDLE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/ST_ROW">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ST_ROW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ST_ROW[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/ST_COL_END">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ST_COL_END[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ST_COL_END[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dot/DUT/bd_dot_i/axis_dot_0/inst/dot0/ST_SZ">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ST_SZ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ST_SZ[31:0]</obj_property>
+   </wvobject>
+</wave_config>

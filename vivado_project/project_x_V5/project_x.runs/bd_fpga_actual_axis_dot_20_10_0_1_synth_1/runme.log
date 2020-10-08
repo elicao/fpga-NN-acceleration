@@ -1,0 +1,438 @@
+
+*** Running vivado
+    with args -log bd_fpga_actual_axis_dot_20_10_0_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_fpga_actual_axis_dot_20_10_0_1.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source bd_fpga_actual_axis_dot_20_10_0_1.tcl -notrace
+Command: synth_design -top bd_fpga_actual_axis_dot_20_10_0_1 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 18992 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 404.129 ; gain = 114.105
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'bd_fpga_actual_axis_dot_20_10_0_1' [c:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.srcs/sources_1/bd/bd_fpga/ip/bd_fpga_actual_axis_dot_20_10_0_1/synth/bd_fpga_actual_axis_dot_20_10_0_1.v:58]
+INFO: [Synth 8-6157] synthesizing module 'actual_axis_dot_20_10' [C:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.srcs/sources_1/new/actual_axis_dot_20_10.v:23]
+INFO: [Synth 8-6157] synthesizing module 'actual_dot_20_10' [C:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.srcs/sources_1/new/actual_dot_20_10.sv:23]
+	Parameter ROWS bound to: 20 - type: integer 
+	Parameter COLS bound to: 10 - type: integer 
+	Parameter weights bound to: 6400'b0011110011010011100111110000101100111100111111101000001000100011001111011001100110000001100011110011110110001110001100011111110000111100111001001110010011000100101111101100011100011110000000000011110100001000110111000100100100111100101111111101100000101011001111011000001101011101110110000011110100100000000100111010110000111110111100101101011101010110101111001111101110111000001010001011110110011010110011111011101110111101100001100110010000101100101111001101110101010100001011011011110111110100001110010100101110111101000010011101101001010011101111001011110110101000111101011011110110000000001001000001110110111101000111011100011001011110001111011110000111010001000101101011111001100000101010100001100000111110000010101001000000100111001111010000011000011001011010011011110111001110100000110101110000111101000000010010101101111001101111011001000011011001101000011011110101111001000000000011111000111101110111111001011001011101101111011100011111101100000000101011110111000011000100110111101010111100011110110000010011100111001111101000110111011010011010010011111010011000100111101101000110111101100110110000100110011001101111101011011010100011101101011011111010111010001010111011001110111110010010011011110100001000001111011001000000100101001001111011110110000110100110010100000110111011101100001111111001010101101110101110010111010100101100101011110010110010100110001111101010111101001100100011100101101000001111000100111010001010000001111011110110001011010100011110111110111100101101101101100011000111001111010110110001111010111110000011101001001011111110111100010100111101101111101010101000111111001111100001111110000010101110110011111010110000100001011100110100111101101110001001101000011010101111101010000001100001011001001011111010111011101011001101110000111100101001001100001000111000101111100011001110010010110110100011111010011110011001011010010110111110101010010100001001111111101111100001010110000000000000100011110110101010101010111110100000111110101101011001001101010101001111010000110100100001101011011011111000110010101010111111011110111110000100111000100000111001001111101010111000100100000001011011111010111111011010101000011000111110010111010111001000100011101111101001111101000000101000010011110100111001101001001010110110111100110101001011010011011000101111010000101111010110001000111011110110011000001000001101110010111101100001011110001100111000101111001101110100110100101100101011110111110110011000111100101110111101000001100101001100101100101111001011100111011001101001110011111011100010110101011110000010111101001001111110111111111110101111001010010111011110001010011011110011101000011000111111010110111101011000110011010010100011101111001011110001100101010100010011111011101101101110000111111010111101010010110010001101010000101111000100101101000000100111001011110110100111110001100100010110111101100000100100001010101110101111100000011010000011110110101011110110110111100111000000111110111100100000000001101111111110001111101001111110010001010110001011101011100110000111001001011100111110011000101000110000101100101111101001011100001000100001010011111000000100000001011100010110111101011101010101111101000100101111101000010101111000000000111011111000010011101010011111101110111100101100011101100101000010101111001111001101110100000010101011110101101000100011111110011110111100110010101110011010101101101111010001100100011111011101011011110101010101111111001011001010111100001011010000101111101011001111101101100100111001000010011011110101111111011000010100011010111110000001001100111001000111101111101010110100110101111010101011111001011010001001011010110010111101010010001000000011110111001111101000001001000001111111001011111001100110111111010111101010111101101111010100011101110001101111010110000101010101011110010011111011000001110001011111011000111110010110010001011110110101101111100101001101000111111000101011101011000011010100110100001010111111000000010000010001011011001111110000001000100111011010111011101010011100110111100011111100111001111001001011110000101000101110100001101101011001010101101011101010100000110110001000100010111010001111100101011011000011101110011101101001110111101110010011011110101100001010111011001110111100110110001010101011000101101111001111111010100010011001111011110110011011110001110100010000111110110111111001110001000010101111001101100100110100001110101011110111110000101100100110010110111101000000111100010101010000101111001011010111110001111010011011110110000101010000000111001110111101001000000011011011110111001111101011010100100001101101101011111011000001011100011010110100111110100101111010101010010010001111001100010001101111010000001011111011000011101000100001001110111110011001010101111101111000101111100010100000100101011101000011110111001110110100000111101110111101011010001011100001101010101111011110010010011001011011010011110010101000100101010010100000111100111011001110101000000101001111010101110101010101001100000011110010111110001011001011110100111101001010011011100110000100001111010100101011110010101101000011110000101011101001011101011000111101101001101001000000100010001111011000001111011110010001101011111010111111010011111100011010111100110110100010001010100001101111001111100010011001010111111011110110100000000110011110011010111101100001111100010010110100101111001110001111101101000111011011110111101111100001011101111000111110111100000001111100101001101111001011000011110111100001101011110110000010111010010010000010111101000111000100000101011101101111100101101000110111101010100011111001001101001000101100100110111110010100110000100000011011101111101000000101010110010111101011111000001101100000100101001000111100100111101110110011010101001111001001111010111010101101010011111010001101110110101111101110111110101010111000101000101000101111100000111010000001001111000011111011000011100100110010110110111110011110011000001011000001001111011111011110110001110101100011110010011011100010100010101000111110010100100111101011100111001111010010010111001111100010010011111001110001111100010011010010111110100100101010100101000100001111100110101000010000000111110011111011100110000111011000110110111100111001110011000111001100101111010000100010011010111110000011111011011100011100100111100010111101100010111110000001001101101111001101100011010010101011111011110111110000110100001100001010111101000010001000111101011000101111001011010101100010110101001011110110000100000000001101000110111101000110010111001001010011 
+INFO: [Synth 8-6157] synthesizing module 'dot' [C:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.srcs/sources_1/new/dot.sv:23]
+	Parameter ROWS bound to: 20 - type: integer 
+	Parameter COLS bound to: 10 - type: integer 
+	Parameter weights bound to: 6400'b0011110011010011100111110000101100111100111111101000001000100011001111011001100110000001100011110011110110001110001100011111110000111100111001001110010011000100101111101100011100011110000000000011110100001000110111000100100100111100101111111101100000101011001111011000001101011101110110000011110100100000000100111010110000111110111100101101011101010110101111001111101110111000001010001011110110011010110011111011101110111101100001100110010000101100101111001101110101010100001011011011110111110100001110010100101110111101000010011101101001010011101111001011110110101000111101011011110110000000001001000001110110111101000111011100011001011110001111011110000111010001000101101011111001100000101010100001100000111110000010101001000000100111001111010000011000011001011010011011110111001110100000110101110000111101000000010010101101111001101111011001000011011001101000011011110101111001000000000011111000111101110111111001011001011101101111011100011111101100000000101011110111000011000100110111101010111100011110110000010011100111001111101000110111011010011010010011111010011000100111101101000110111101100110110000100110011001101111101011011010100011101101011011111010111010001010111011001110111110010010011011110100001000001111011001000000100101001001111011110110000110100110010100000110111011101100001111111001010101101110101110010111010100101100101011110010110010100110001111101010111101001100100011100101101000001111000100111010001010000001111011110110001011010100011110111110111100101101101101100011000111001111010110110001111010111110000011101001001011111110111100010100111101101111101010101000111111001111100001111110000010101110110011111010110000100001011100110100111101101110001001101000011010101111101010000001100001011001001011111010111011101011001101110000111100101001001100001000111000101111100011001110010010110110100011111010011110011001011010010110111110101010010100001001111111101111100001010110000000000000100011110110101010101010111110100000111110101101011001001101010101001111010000110100100001101011011011111000110010101010111111011110111110000100111000100000111001001111101010111000100100000001011011111010111111011010101000011000111110010111010111001000100011101111101001111101000000101000010011110100111001101001001010110110111100110101001011010011011000101111010000101111010110001000111011110110011000001000001101110010111101100001011110001100111000101111001101110100110100101100101011110111110110011000111100101110111101000001100101001100101100101111001011100111011001101001110011111011100010110101011110000010111101001001111110111111111110101111001010010111011110001010011011110011101000011000111111010110111101011000110011010010100011101111001011110001100101010100010011111011101101101110000111111010111101010010110010001101010000101111000100101101000000100111001011110110100111110001100100010110111101100000100100001010101110101111100000011010000011110110101011110110110111100111000000111110111100100000000001101111111110001111101001111110010001010110001011101011100110000111001001011100111110011000101000110000101100101111101001011100001000100001010011111000000100000001011100010110111101011101010101111101000100101111101000010101111000000000111011111000010011101010011111101110111100101100011101100101000010101111001111001101110100000010101011110101101000100011111110011110111100110010101110011010101101101111010001100100011111011101011011110101010101111111001011001010111100001011010000101111101011001111101101100100111001000010011011110101111111011000010100011010111110000001001100111001000111101111101010110100110101111010101011111001011010001001011010110010111101010010001000000011110111001111101000001001000001111111001011111001100110111111010111101010111101101111010100011101110001101111010110000101010101011110010011111011000001110001011111011000111110010110010001011110110101101111100101001101000111111000101011101011000011010100110100001010111111000000010000010001011011001111110000001000100111011010111011101010011100110111100011111100111001111001001011110000101000101110100001101101011001010101101011101010100000110110001000100010111010001111100101011011000011101110011101101001110111101110010011011110101100001010111011001110111100110110001010101011000101101111001111111010100010011001111011110110011011110001110100010000111110110111111001110001000010101111001101100100110100001110101011110111110000101100100110010110111101000000111100010101010000101111001011010111110001111010011011110110000101010000000111001110111101001000000011011011110111001111101011010100100001101101101011111011000001011100011010110100111110100101111010101010010010001111001100010001101111010000001011111011000011101000100001001110111110011001010101111101111000101111100010100000100101011101000011110111001110110100000111101110111101011010001011100001101010101111011110010010011001011011010011110010101000100101010010100000111100111011001110101000000101001111010101110101010101001100000011110010111110001011001011110100111101001010011011100110000100001111010100101011110010101101000011110000101011101001011101011000111101101001101001000000100010001111011000001111011110010001101011111010111111010011111100011010111100110110100010001010100001101111001111100010011001010111111011110110100000000110011110011010111101100001111100010010110100101111001110001111101101000111011011110111101111100001011101111000111110111100000001111100101001101111001011000011110111100001101011110110000010111010010010000010111101000111000100000101011101101111100101101000110111101010100011111001001101001000101100100110111110010100110000100000011011101111101000000101010110010111101011111000001101100000100101001000111100100111101110110011010101001111001001111010111010101101010011111010001101110110101111101110111110101010111000101000101000101111100000111010000001001111000011111011000011100100110010110110111110011110011000001011000001001111011111011110110001110101100011110010011011100010100010101000111110010100100111101011100111001111010010010111001111100010010011111001110001111100010011010010111110100100101010100101000100001111100110101000010000000111110011111011100110000111011000110110111100111001110011000111001100101111010000100010011010111110000011111011011100011100100111100010111101100010111110000001001101101111001101100011010010101011111011110111110000110100001100001010111101000010001000111101011000101111001011010101100010110101001011110110000100000000001101000110111101000110010111001001010011 
+	Parameter FPU_DELAY bound to: 18 - type: integer 
+	Parameter TIMER_SZ bound to: 5 - type: integer 
+	Parameter ST_IDLE bound to: 0 - type: integer 
+	Parameter ST_INPUT bound to: 1 - type: integer 
+	Parameter ST_ROW bound to: 2 - type: integer 
+	Parameter ST_ROW_DELAY bound to: 3 - type: integer 
+	Parameter ST_COL_END bound to: 4 - type: integer 
+	Parameter ST_SZ bound to: 3 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.srcs/sources_1/new/dot.sv:997]
+INFO: [Synth 8-6155] done synthesizing module 'dot' (1#1) [C:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.srcs/sources_1/new/dot.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'actual_dot_20_10' (2#1) [C:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.srcs/sources_1/new/actual_dot_20_10.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'actual_axis_dot_20_10' (3#1) [C:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.srcs/sources_1/new/actual_axis_dot_20_10.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd_fpga_actual_axis_dot_20_10_0_1' (4#1) [c:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.srcs/sources_1/bd/bd_fpga/ip/bd_fpga_actual_axis_dot_20_10_0_1/synth/bd_fpga_actual_axis_dot_20_10_0_1.v:58]
+WARNING: [Synth 8-3331] design dot has unconnected port INPUT_AXIS_TKEEP[3]
+WARNING: [Synth 8-3331] design dot has unconnected port INPUT_AXIS_TKEEP[2]
+WARNING: [Synth 8-3331] design dot has unconnected port INPUT_AXIS_TKEEP[1]
+WARNING: [Synth 8-3331] design dot has unconnected port INPUT_AXIS_TKEEP[0]
+WARNING: [Synth 8-3331] design dot has unconnected port INPUT_AXIS_TLAST
+WARNING: [Synth 8-3331] design dot has unconnected port FPU_IN_AXIS_TKEEP[3]
+WARNING: [Synth 8-3331] design dot has unconnected port FPU_IN_AXIS_TKEEP[2]
+WARNING: [Synth 8-3331] design dot has unconnected port FPU_IN_AXIS_TKEEP[1]
+WARNING: [Synth 8-3331] design dot has unconnected port FPU_IN_AXIS_TKEEP[0]
+WARNING: [Synth 8-3331] design dot has unconnected port FPU_IN_AXIS_TLAST
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 461.523 ; gain = 171.500
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 461.523 ; gain = 171.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 461.523 ; gain = 171.500
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 798.199 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 798.199 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.076 . Memory (MB): peak = 801.117 ; gain = 2.918
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 801.117 ; gain = 511.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 801.117 ; gain = 511.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 801.117 ; gain = 511.094
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'dot'
+INFO: [Synth 8-5545] ROM "outputs_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "outputs_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "outputs_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "outputs_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "outputs_reg[4]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "outputs_reg[5]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "outputs_reg[6]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "outputs_reg[7]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "outputs_reg[8]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "outputs_reg[9]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 ST_IDLE |                              000 |                              000
+                ST_INPUT |                              001 |                              001
+                  ST_ROW |                              010 |                              010
+            ST_ROW_DELAY |                              011 |                              011
+              ST_COL_END |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'dot'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 801.117 ; gain = 511.094
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 13    
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   5 Input     32 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 7     
+	   5 Input      5 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 30    
+	   5 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module dot 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 13    
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   5 Input     32 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 7     
+	   5 Input      5 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 30    
+	   5 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "inst/dot0/dot0/next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inst/dot0/dot0/next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "inst/dot0/dot0/outputs_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/dot0/dot0/outputs_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/dot0/dot0/outputs_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/dot0/dot0/outputs_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/dot0/dot0/outputs_reg[4]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/dot0/dot0/outputs_reg[5]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/dot0/dot0/outputs_reg[6]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/dot0/dot0/outputs_reg[7]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/dot0/dot0/outputs_reg[8]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/dot0/dot0/outputs_reg[9]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-3917] design bd_fpga_actual_axis_dot_20_10_0_1 has port OUTPUT_AXIS_TKEEP[3] driven by constant 1
+INFO: [Synth 8-3917] design bd_fpga_actual_axis_dot_20_10_0_1 has port OUTPUT_AXIS_TKEEP[2] driven by constant 1
+INFO: [Synth 8-3917] design bd_fpga_actual_axis_dot_20_10_0_1 has port OUTPUT_AXIS_TKEEP[1] driven by constant 1
+INFO: [Synth 8-3917] design bd_fpga_actual_axis_dot_20_10_0_1 has port OUTPUT_AXIS_TKEEP[0] driven by constant 1
+INFO: [Synth 8-3917] design bd_fpga_actual_axis_dot_20_10_0_1 has port FPU_IN_AXIS_TREADY driven by constant 1
+INFO: [Synth 8-3917] design bd_fpga_actual_axis_dot_20_10_0_1 has port FPU_O_A_AXIS_TKEEP[3] driven by constant 1
+INFO: [Synth 8-3917] design bd_fpga_actual_axis_dot_20_10_0_1 has port FPU_O_A_AXIS_TKEEP[2] driven by constant 1
+INFO: [Synth 8-3917] design bd_fpga_actual_axis_dot_20_10_0_1 has port FPU_O_A_AXIS_TKEEP[1] driven by constant 1
+INFO: [Synth 8-3917] design bd_fpga_actual_axis_dot_20_10_0_1 has port FPU_O_A_AXIS_TKEEP[0] driven by constant 1
+INFO: [Synth 8-3917] design bd_fpga_actual_axis_dot_20_10_0_1 has port FPU_O_B_AXIS_TKEEP[3] driven by constant 1
+INFO: [Synth 8-3917] design bd_fpga_actual_axis_dot_20_10_0_1 has port FPU_O_B_AXIS_TKEEP[2] driven by constant 1
+INFO: [Synth 8-3917] design bd_fpga_actual_axis_dot_20_10_0_1 has port FPU_O_B_AXIS_TKEEP[1] driven by constant 1
+INFO: [Synth 8-3917] design bd_fpga_actual_axis_dot_20_10_0_1 has port FPU_O_B_AXIS_TKEEP[0] driven by constant 1
+INFO: [Synth 8-3917] design bd_fpga_actual_axis_dot_20_10_0_1 has port FPU_O_C_AXIS_TKEEP[3] driven by constant 1
+INFO: [Synth 8-3917] design bd_fpga_actual_axis_dot_20_10_0_1 has port FPU_O_C_AXIS_TKEEP[2] driven by constant 1
+INFO: [Synth 8-3917] design bd_fpga_actual_axis_dot_20_10_0_1 has port FPU_O_C_AXIS_TKEEP[1] driven by constant 1
+INFO: [Synth 8-3917] design bd_fpga_actual_axis_dot_20_10_0_1 has port FPU_O_C_AXIS_TKEEP[0] driven by constant 1
+WARNING: [Synth 8-3331] design bd_fpga_actual_axis_dot_20_10_0_1 has unconnected port INPUT_AXIS_TKEEP[3]
+WARNING: [Synth 8-3331] design bd_fpga_actual_axis_dot_20_10_0_1 has unconnected port INPUT_AXIS_TKEEP[2]
+WARNING: [Synth 8-3331] design bd_fpga_actual_axis_dot_20_10_0_1 has unconnected port INPUT_AXIS_TKEEP[1]
+WARNING: [Synth 8-3331] design bd_fpga_actual_axis_dot_20_10_0_1 has unconnected port INPUT_AXIS_TKEEP[0]
+WARNING: [Synth 8-3331] design bd_fpga_actual_axis_dot_20_10_0_1 has unconnected port INPUT_AXIS_TLAST
+WARNING: [Synth 8-3331] design bd_fpga_actual_axis_dot_20_10_0_1 has unconnected port FPU_IN_AXIS_TKEEP[3]
+WARNING: [Synth 8-3331] design bd_fpga_actual_axis_dot_20_10_0_1 has unconnected port FPU_IN_AXIS_TKEEP[2]
+WARNING: [Synth 8-3331] design bd_fpga_actual_axis_dot_20_10_0_1 has unconnected port FPU_IN_AXIS_TKEEP[1]
+WARNING: [Synth 8-3331] design bd_fpga_actual_axis_dot_20_10_0_1 has unconnected port FPU_IN_AXIS_TKEEP[0]
+WARNING: [Synth 8-3331] design bd_fpga_actual_axis_dot_20_10_0_1 has unconnected port FPU_IN_AXIS_TLAST
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 801.117 ; gain = 511.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++----------------------------------+------------------------+---------------+----------------+
+|Module Name                       | RTL Object             | Depth x Width | Implemented As | 
++----------------------------------+------------------------+---------------+----------------+
+|dot                               | weights                | 32x32         | LUT            | 
+|dot                               | weights                | 32x32         | LUT            | 
+|dot                               | weights                | 32x32         | LUT            | 
+|dot                               | weights                | 32x32         | LUT            | 
+|dot                               | weights                | 32x32         | LUT            | 
+|dot                               | weights                | 32x32         | LUT            | 
+|dot                               | weights                | 32x32         | LUT            | 
+|dot                               | weights                | 32x32         | LUT            | 
+|dot                               | weights                | 32x32         | LUT            | 
+|dot                               | weights                | 32x32         | LUT            | 
+|bd_fpga_actual_axis_dot_20_10_0_1 | inst/dot0/dot0/weights | 32x32         | LUT            | 
+|bd_fpga_actual_axis_dot_20_10_0_1 | inst/dot0/dot0/weights | 32x32         | LUT            | 
+|bd_fpga_actual_axis_dot_20_10_0_1 | inst/dot0/dot0/weights | 32x32         | LUT            | 
+|bd_fpga_actual_axis_dot_20_10_0_1 | inst/dot0/dot0/weights | 32x32         | LUT            | 
+|bd_fpga_actual_axis_dot_20_10_0_1 | inst/dot0/dot0/weights | 32x32         | LUT            | 
+|bd_fpga_actual_axis_dot_20_10_0_1 | inst/dot0/dot0/weights | 32x32         | LUT            | 
+|bd_fpga_actual_axis_dot_20_10_0_1 | inst/dot0/dot0/weights | 32x32         | LUT            | 
+|bd_fpga_actual_axis_dot_20_10_0_1 | inst/dot0/dot0/weights | 32x32         | LUT            | 
+|bd_fpga_actual_axis_dot_20_10_0_1 | inst/dot0/dot0/weights | 32x32         | LUT            | 
+|bd_fpga_actual_axis_dot_20_10_0_1 | inst/dot0/dot0/weights | 32x32         | LUT            | 
++----------------------------------+------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 806.922 ; gain = 516.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 807.965 ; gain = 517.941
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 835.289 ; gain = 545.266
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 835.289 ; gain = 545.266
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 835.289 ; gain = 545.266
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 835.289 ; gain = 545.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 835.289 ; gain = 545.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 835.289 ; gain = 545.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 835.289 ; gain = 545.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    24|
+|2     |LUT1   |     4|
+|3     |LUT2   |    11|
+|4     |LUT3   |    11|
+|5     |LUT4   |    97|
+|6     |LUT5   |    67|
+|7     |LUT6   |   357|
+|8     |MUXF7  |    55|
+|9     |FDRE   |   464|
+|10    |FDSE   |     2|
++------+-------+------+
+
+Report Instance Areas: 
++------+-----------+----------------------+------+
+|      |Instance   |Module                |Cells |
++------+-----------+----------------------+------+
+|1     |top        |                      |  1092|
+|2     |  inst     |actual_axis_dot_20_10 |  1092|
+|3     |    dot0   |actual_dot_20_10      |  1092|
+|4     |      dot0 |dot                   |  1092|
++------+-----------+----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 835.289 ; gain = 545.266
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 10 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 835.289 ; gain = 205.672
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 835.289 ; gain = 545.266
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 79 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'bd_fpga_actual_axis_dot_20_10_0_1' is not ideal for floorplanning, since the cellview 'dot' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 835.289 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+63 Infos, 22 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 835.289 ; gain = 558.398
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 835.289 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.runs/bd_fpga_actual_axis_dot_20_10_0_1_synth_1/bd_fpga_actual_axis_dot_20_10_0_1.dcp' has been generated.
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 835.289 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.runs/bd_fpga_actual_axis_dot_20_10_0_1_synth_1/bd_fpga_actual_axis_dot_20_10_0_1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file bd_fpga_actual_axis_dot_20_10_0_1_utilization_synth.rpt -pb bd_fpga_actual_axis_dot_20_10_0_1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed May  6 01:06:10 2020...

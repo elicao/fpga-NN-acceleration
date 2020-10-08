@@ -1,0 +1,14 @@
+sv xil_defaultlib --include "../../../../project_x.srcs/sim_layer/bd/bd_layer/ipshared/8713/hdl" \
+"../../../bd/bd_layer/ip/bd_layer_axi4stream_vip_0_0/sim/bd_layer_axi4stream_vip_0_0_pkg.sv" \
+"../../../bd/bd_layer/ip/bd_layer_axi4stream_vip_0_0/sim/bd_layer_axi4stream_vip_0_0.sv" \
+"../../../bd/bd_layer/ip/bd_layer_axi4stream_vip_1_0/sim/bd_layer_axi4stream_vip_1_0_pkg.sv" \
+"../../../bd/bd_layer/ip/bd_layer_axi4stream_vip_1_0/sim/bd_layer_axi4stream_vip_1_0.sv" \
+
+verilog xil_defaultlib --include "../../../../project_x.srcs/sim_layer/bd/bd_layer/ipshared/8713/hdl" \
+"../../../bd/bd_layer/ip/bd_layer_axis_dot_0_0/sim/bd_layer_axis_dot_0_0.v" \
+"../../../bd/bd_layer/ip/bd_layer_axis_tanh_0_0/sim/bd_layer_axis_tanh_0_0.v" \
+"../../../bd/bd_layer/sim/bd_layer.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

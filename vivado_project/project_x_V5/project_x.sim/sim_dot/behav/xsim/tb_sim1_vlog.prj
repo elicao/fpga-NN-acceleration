@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../project_x.srcs/sim_LUTmoid/bd/bd_LUTmoid/ipshared/8713/hdl" --include "../../../../project_x.srcs/sim_axis_tanh/bd/bd_axis_tanh/ipshared/8713/hdl" --include "../../../../project_x.srcs/sim_dot/bd/bd_dot/ipshared/8713/hdl" --include "/opt/Xilinx/Vivado/2018.3/data/xilinx_vip/include" \
+"../../../../project_x.ip_user_files/bd/bd_dot/ip/bd_dot_axis_dot_0_0/sim/bd_dot_axis_dot_0_0.v" \
+"../../../../project_x.ip_user_files/bd/bd_dot/sim/bd_dot.v" \
+
+sv xil_defaultlib  --include "../../../../project_x.srcs/sim_LUTmoid/bd/bd_LUTmoid/ipshared/8713/hdl" --include "../../../../project_x.srcs/sim_axis_tanh/bd/bd_axis_tanh/ipshared/8713/hdl" --include "../../../../project_x.srcs/sim_dot/bd/bd_dot/ipshared/8713/hdl" --include "/opt/Xilinx/Vivado/2018.3/data/xilinx_vip/include" \
+"../../../../project_x.ip_user_files/bd/bd_dot/ip/bd_dot_axi4stream_vip_0_0/sim/bd_dot_axi4stream_vip_0_0_pkg.sv" \
+"../../../../project_x.ip_user_files/bd/bd_dot/ip/bd_dot_axi4stream_vip_0_0/sim/bd_dot_axi4stream_vip_0_0.sv" \
+"../../../../project_x.ip_user_files/bd/bd_dot/ip/bd_dot_axi4stream_vip_1_0/sim/bd_dot_axi4stream_vip_1_0_pkg.sv" \
+"../../../../project_x.ip_user_files/bd/bd_dot/ip/bd_dot_axi4stream_vip_1_0/sim/bd_dot_axi4stream_vip_1_0.sv" \
+
+verilog xil_defaultlib  --include "../../../../project_x.srcs/sim_LUTmoid/bd/bd_LUTmoid/ipshared/8713/hdl" --include "../../../../project_x.srcs/sim_axis_tanh/bd/bd_axis_tanh/ipshared/8713/hdl" --include "../../../../project_x.srcs/sim_dot/bd/bd_dot/ipshared/8713/hdl" --include "/opt/Xilinx/Vivado/2018.3/data/xilinx_vip/include" \
+"../../../../project_x.srcs/sources_1/new/axis_LUTmoid.v" \
+"../../../../project_x.srcs/sources_1/new/axis_tanh.v" \
+"../../../../project_x.srcs/sim_dot/bd/bd_dot/hdl/bd_dot_wrapper.v" \
+
+sv xil_defaultlib  --include "../../../../project_x.srcs/sim_LUTmoid/bd/bd_LUTmoid/ipshared/8713/hdl" --include "../../../../project_x.srcs/sim_axis_tanh/bd/bd_axis_tanh/ipshared/8713/hdl" --include "../../../../project_x.srcs/sim_dot/bd/bd_dot/ipshared/8713/hdl" --include "/opt/Xilinx/Vivado/2018.3/data/xilinx_vip/include" \
+"../../../../project_x.srcs/sources_1/new/LUTmoid.sv" \
+"../../../../project_x.srcs/sources_1/new/dot.sv" \
+"../../../../project_x.srcs/sources_1/new/tanh_lut.sv" \
+"../../../../project_x.srcs/sim_dot/new/tb_dot.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

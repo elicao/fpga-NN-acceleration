@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../project_x.srcs/sim_LUTmoid/bd/bd_LUTmoid/ipshared/8713/hdl" --include "../../../../project_x.srcs/sim_axis_tanh/bd/bd_axis_tanh/ipshared/8713/hdl" --include "/opt/Xilinx/Vivado/2018.3/data/xilinx_vip/include" \
+"../../../../project_x.srcs/sources_1/new/LUTmoid.sv" \
+
+verilog xil_defaultlib  --include "../../../../project_x.srcs/sim_LUTmoid/bd/bd_LUTmoid/ipshared/8713/hdl" --include "../../../../project_x.srcs/sim_axis_tanh/bd/bd_axis_tanh/ipshared/8713/hdl" --include "/opt/Xilinx/Vivado/2018.3/data/xilinx_vip/include" \
+"../../../../project_x.srcs/sources_1/new/axis_LUTmoid.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

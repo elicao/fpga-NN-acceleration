@@ -1,0 +1,322 @@
+
+*** Running vivado
+    with args -log bd_fpga_axis_bias_10_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_fpga_axis_bias_10_0_0.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source bd_fpga_axis_bias_10_0_0.tcl -notrace
+Command: synth_design -top bd_fpga_axis_bias_10_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 20884 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 396.066 ; gain = 106.586
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'bd_fpga_axis_bias_10_0_0' [c:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.srcs/sources_1/bd/bd_fpga/ip/bd_fpga_axis_bias_10_0_0/synth/bd_fpga_axis_bias_10_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'axis_bias_10' [C:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.srcs/sources_1/new/axis_bias_10.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bias_10' [C:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.srcs/sources_1/new/bias_10.sv:22]
+	Parameter NUM_VALUES bound to: 80 - type: integer 
+	Parameter VALUES bound to: 2560'b1011111011000110010101000111101110111110001100001100010111011111001111110000001101011001010011110011111100001001010101111100101100111110010100110001100111101010101111101011000011011010001010100011111011101001110010010000011000111110100000111010100111010110101110111111010001110011100111100011111001011001101101000001101000111011110001110100101011000111001111010011101010101000110011101011111011100100101000110011000100111110101001001010110110001111001111101001001110101011110110110011111001110001101100111100001010111110010100100011010000101111001111001011011100100100000000101011111011010111111110100001001100111110001101111011000011110010001111101111010100101101011111101011111011010001101101001000000100111101110111101111110100101011001111100101010000001101110101101011111001111100001011100000001110111110000010010000110111101101001111101000110011111101011011010011110100011010111001011001100010111110000010111110101010111101101111101101010110111100000110111011110001100001011000111110111000111110111101110010011101000111101111101101000101000101111000110011111000010011111010100011100110111101110010100101001000010000001111011100110000001110110111111011110111111011101100001000111110111110001000000000110111101010001110111010110010010010000011101011111100001111010001100001110100111111000010010101000101011101101111011101110001001010000111111011111010000101100011011110110110111011100010101000000111000010001111110000010001000011100110000011111001001010010010100011100100111101100111100000110101010011101111101100010011111111101000001011111010101011001011011111101010111110000001100010010110100000101111101110010110101110111100000011111001001000001000100100000000111101110101000111110101001111101111110000011101011110011111011011110101010101000010110001101100111110000100100011100111111000001111100010100001011111010001001011110110001011110011010110100000111111000010010010100111110000101111100111001110001100001101011011111001010101110100011001001000111101000111110010100111000000001111101011101110000111111000010011110010010100000010110000100010111110000110101001001100111101001111101001110011010001111010010011111100000011111111001100000010111101101111010001001010000100001111100010000111001111101000100011111011100000001001110110011100111110011101110010000100001110001111101100000111111010101011100011111100001010111101101110001000111101010000001100001010111011101111010011010000100011010110011011111100000011110010010001010100111110101001101101011001011010101111010101011110100111010010000011111011000011101100110000000000111111010111100111110000000000 
+INFO: [Synth 8-6157] synthesizing module 'bias' [C:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.srcs/sources_1/new/bias.sv:4]
+	Parameter NUM_VALUES bound to: 80 - type: integer 
+	Parameter VALUES bound to: 2560'b1011111011000110010101000111101110111110001100001100010111011111001111110000001101011001010011110011111100001001010101111100101100111110010100110001100111101010101111101011000011011010001010100011111011101001110010010000011000111110100000111010100111010110101110111111010001110011100111100011111001011001101101000001101000111011110001110100101011000111001111010011101010101000110011101011111011100100101000110011000100111110101001001010110110001111001111101001001110101011110110110011111001110001101100111100001010111110010100100011010000101111001111001011011100100100000000101011111011010111111110100001001100111110001101111011000011110010001111101111010100101101011111101011111011010001101101001000000100111101110111101111110100101011001111100101010000001101110101101011111001111100001011100000001110111110000010010000110111101101001111101000110011111101011011010011110100011010111001011001100010111110000010111110101010111101101111101101010110111100000110111011110001100001011000111110111000111110111101110010011101000111101111101101000101000101111000110011111000010011111010100011100110111101110010100101001000010000001111011100110000001110110111111011110111111011101100001000111110111110001000000000110111101010001110111010110010010010000011101011111100001111010001100001110100111111000010010101000101011101101111011101110001001010000111111011111010000101100011011110110110111011100010101000000111000010001111110000010001000011100110000011111001001010010010100011100100111101100111100000110101010011101111101100010011111111101000001011111010101011001011011111101010111110000001100010010110100000101111101110010110101110111100000011111001001000001000100100000000111101110101000111110101001111101111110000011101011110011111011011110101010101000010110001101100111110000100100011100111111000001111100010100001011111010001001011110110001011110011010110100000111111000010010010100111110000101111100111001110001100001101011011111001010101110100011001001000111101000111110010100111000000001111101011101110000111111000010011110010010100000010110000100010111110000110101001001100111101001111101001110011010001111010010011111100000011111111001100000010111101101111010001001010000100001111100010000111001111101000100011111011100000001001110110011100111110011101110010000100001110001111101100000111111010101011100011111100001010111101101110001000111101010000001100001010111011101111010011010000100011010110011011111100000011110010010001010100111110101001101101011001011010101111010101011110100111010010000011111011000011101100110000000000111111010111100111110000000000 
+	Parameter CNT_SZ bound to: 7 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'bias' (1#1) [C:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.srcs/sources_1/new/bias.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'bias_10' (2#1) [C:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.srcs/sources_1/new/bias_10.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'axis_bias_10' (3#1) [C:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.srcs/sources_1/new/axis_bias_10.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd_fpga_axis_bias_10_0_0' (4#1) [c:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.srcs/sources_1/bd/bd_fpga/ip/bd_fpga_axis_bias_10_0_0/synth/bd_fpga_axis_bias_10_0_0.v:58]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 452.367 ; gain = 162.887
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 452.367 ; gain = 162.887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 452.367 ; gain = 162.887
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 750.434 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 750.434 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 752.551 ; gain = 2.117
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 752.551 ; gain = 463.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 752.551 ; gain = 463.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 752.551 ; gain = 463.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 752.551 ; gain = 463.070
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 2     
++---Registers : 
+	                7 Bit    Registers := 2     
++---ROMs : 
+	                              ROMs := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module bias 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 2     
++---Registers : 
+	                7 Bit    Registers := 2     
++---ROMs : 
+	                              ROMs := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3917] design bd_fpga_axis_bias_10_0_0 has port M_AXIS_TKEEP[3] driven by constant 1
+INFO: [Synth 8-3917] design bd_fpga_axis_bias_10_0_0 has port M_AXIS_TKEEP[2] driven by constant 1
+INFO: [Synth 8-3917] design bd_fpga_axis_bias_10_0_0 has port M_AXIS_TKEEP[1] driven by constant 1
+INFO: [Synth 8-3917] design bd_fpga_axis_bias_10_0_0 has port M_AXIS_TKEEP[0] driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 752.551 ; gain = 463.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-------------------------+------------------------------+---------------+----------------+
+|Module Name              | RTL Object                   | Depth x Width | Implemented As | 
++-------------------------+------------------------------+---------------+----------------+
+|bd_fpga_axis_bias_10_0_0 | inst/bias0/bias0/cnt_reg_rep | 128x32        | Block RAM      | 
++-------------------------+------------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance insti_0/inst/bias0/bias0/cnt_reg_rep (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance insti_0/inst/bias0/bias0/cnt_reg_rep (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 798.008 ; gain = 508.527
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 798.082 ; gain = 508.602
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance inst/bias0/bias0/cnt_reg_rep (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/bias0/bias0/cnt_reg_rep (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 807.621 ; gain = 518.141
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 807.621 ; gain = 518.141
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 807.621 ; gain = 518.141
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 807.621 ; gain = 518.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 807.621 ; gain = 518.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 807.621 ; gain = 518.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 807.621 ; gain = 518.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |LUT1     |     1|
+|2     |LUT2     |     3|
+|3     |LUT3     |     2|
+|4     |LUT4     |     6|
+|5     |LUT5     |     2|
+|6     |LUT6     |     4|
+|7     |RAMB18E1 |     1|
+|8     |FDRE     |     7|
++------+---------+------+
+
+Report Instance Areas: 
++------+------------+-------------+------+
+|      |Instance    |Module       |Cells |
++------+------------+-------------+------+
+|1     |top         |             |    26|
+|2     |  inst      |axis_bias_10 |    26|
+|3     |    bias0   |bias_10      |    26|
+|4     |      bias0 |bias         |    26|
++------+------------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 807.621 ; gain = 518.141
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 807.621 ; gain = 217.957
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 807.621 ; gain = 518.141
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 820.168 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+27 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 820.168 ; gain = 543.746
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 820.168 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.runs/bd_fpga_axis_bias_10_0_0_synth_1/bd_fpga_axis_bias_10_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 820.168 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Tyler/Documents/GitHub/E315_Final/vivado_project/project_x_V5/project_x.runs/bd_fpga_axis_bias_10_0_0_synth_1/bd_fpga_axis_bias_10_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file bd_fpga_axis_bias_10_0_0_utilization_synth.rpt -pb bd_fpga_axis_bias_10_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed May  6 00:01:54 2020...

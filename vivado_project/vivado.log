@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Apr 28 20:33:23 2020
+# Process ID: 12062
+# Current directory: /home/eric/IU_Classes/E315/Final/E315_Final/verilog
+# Command line: vivado
+# Log file: /home/eric/IU_Classes/E315/Final/E315_Final/verilog/vivado.log
+# Journal file: /home/eric/IU_Classes/E315/Final/E315_Final/verilog/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/eric/IU_Classes/E315/Final/E315_Final/verilog/project_x_V3/project_x.xpr
+INFO: [Project 1-313] Project file moved from '/home/eric/IU_Classes/E315/Final/project_x_V3' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:11 . Memory (MB): peak = 6473.363 ; gain = 158.926 ; free physical = 621 ; free virtual = 6838
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 28 22:20:47 2020...

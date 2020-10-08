@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../project_x.srcs/sim_LUTmoid/bd/bd_LUTmoid/ipshared/8713/hdl" --include "../../../../project_x.srcs/sim_axis_tanh/bd/bd_axis_tanh/ipshared/8713/hdl" --include "/opt/Xilinx/Vivado/2018.3/data/xilinx_vip/include" \
+"../../../../project_x.srcs/sources_1/new/tanh_lut.sv" \
+
+verilog xil_defaultlib  --include "../../../../project_x.srcs/sim_LUTmoid/bd/bd_LUTmoid/ipshared/8713/hdl" --include "../../../../project_x.srcs/sim_axis_tanh/bd/bd_axis_tanh/ipshared/8713/hdl" --include "/opt/Xilinx/Vivado/2018.3/data/xilinx_vip/include" \
+"../../../../project_x.srcs/sources_1/new/axis_tanh.v" \
+
+sv xil_defaultlib  --include "../../../../project_x.srcs/sim_LUTmoid/bd/bd_LUTmoid/ipshared/8713/hdl" --include "../../../../project_x.srcs/sim_axis_tanh/bd/bd_axis_tanh/ipshared/8713/hdl" --include "/opt/Xilinx/Vivado/2018.3/data/xilinx_vip/include" \
+"../../../../project_x.ip_user_files/bd/bd_axis_tanh/ip/bd_axis_tanh_axi4stream_vip_0_0/sim/bd_axis_tanh_axi4stream_vip_0_0_pkg.sv" \
+"../../../../project_x.ip_user_files/bd/bd_axis_tanh/ip/bd_axis_tanh_axi4stream_vip_0_0/sim/bd_axis_tanh_axi4stream_vip_0_0.sv" \
+"../../../../project_x.ip_user_files/bd/bd_axis_tanh/ip/bd_axis_tanh_axi4stream_vip_1_0/sim/bd_axis_tanh_axi4stream_vip_1_0_pkg.sv" \
+"../../../../project_x.ip_user_files/bd/bd_axis_tanh/ip/bd_axis_tanh_axi4stream_vip_1_0/sim/bd_axis_tanh_axi4stream_vip_1_0.sv" \
+
+verilog xil_defaultlib  --include "../../../../project_x.srcs/sim_LUTmoid/bd/bd_LUTmoid/ipshared/8713/hdl" --include "../../../../project_x.srcs/sim_axis_tanh/bd/bd_axis_tanh/ipshared/8713/hdl" --include "/opt/Xilinx/Vivado/2018.3/data/xilinx_vip/include" \
+"../../../../project_x.ip_user_files/bd/bd_axis_tanh/ip/bd_axis_tanh_axis_tanh_0_0/sim/bd_axis_tanh_axis_tanh_0_0.v" \
+"../../../../project_x.ip_user_files/bd/bd_axis_tanh/sim/bd_axis_tanh.v" \
+"../../../../project_x.srcs/sim_axis_tanh/bd/bd_axis_tanh/hdl/bd_axis_tanh_wrapper.v" \
+
+sv xil_defaultlib  --include "../../../../project_x.srcs/sim_LUTmoid/bd/bd_LUTmoid/ipshared/8713/hdl" --include "../../../../project_x.srcs/sim_axis_tanh/bd/bd_axis_tanh/ipshared/8713/hdl" --include "/opt/Xilinx/Vivado/2018.3/data/xilinx_vip/include" \
+"../../../../project_x.srcs/sim_axis_tanh/new/tb_axis_tanh.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

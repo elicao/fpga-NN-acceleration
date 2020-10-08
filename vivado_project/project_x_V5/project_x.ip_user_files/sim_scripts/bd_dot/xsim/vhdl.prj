@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../bd/bd_dot/ip/bd_dot_floating_point_0_0/sim/bd_dot_floating_point_0_0.vhd" \
+
+nosort
